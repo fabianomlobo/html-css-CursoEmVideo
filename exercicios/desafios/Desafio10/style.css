@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: tahoma;
+   
+}
+
+body{
+    background-color: rgb(158, 226, 158);
+}
+
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+
+h2, .fonte{
+    font-family: android, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+}
+
+section {
+    margin: 15px;   
+    
+}
+
+p{
+    text-indent: 30px;
+}
+
+header{
+    background-color: rgb(74, 204, 74);
+    height: 200px;
+    text-align: center;
+}
+
+header h1{
+    font-size: 40px;
+    color: #dddddd;
+}
+
+header nav{
+    text-align: left;
+    margin-top: 30px;
+    font-size: 1.8em;
+    
+}
+header nav a{
+    color: #dddddd;
+}
+
+header p{
+    font-size: 25px;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
