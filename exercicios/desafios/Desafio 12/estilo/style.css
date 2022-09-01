@@ -18,8 +18,8 @@
 html, body {
     min-height: 100vh;
     background-color: darkgray;
-    font-family: var(--fonte1);
-    
+    background-image: url('../imagens/background001.jpg');    
+    font-family: var(--fonte1);    
 }
 
 header {
@@ -61,6 +61,11 @@ section {
     padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 4vw;
+    
+}
+
+section p{
+    padding-bottom: 2em;
 }
 
 .normal {
@@ -68,15 +73,31 @@ section {
     color: black;
 }
 
-.imagem {
-    background-color: rgb(51, 51, 51);
+.imagem {    
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.596);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    
 }
 
 .imagem p {
     display: inline-block;
-    padding: 5px;
-    background-color: black;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.459);
+    border-radius: 15px;
+    text-shadow: 1px 1px 2px black;   
+    
+}
+
+#img01 {
+    background-image: url('../imagens/background001.jpg');
+    
+}
+
+#img02 {
+    background-image: url('../imagens/background002.jpg');
     
 }
 
