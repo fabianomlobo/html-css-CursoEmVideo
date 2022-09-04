@@ -9,13 +9,39 @@
         body{
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
+        
+        table{
+            width: 500px;
+            border-collapse: collapse;             
+            position: relative;
+        }
+
         td, th{
             padding: 10px;
             border: 1px solid black;
-            
+        }  
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+
         }
-        table{
-            border-collapse: collapse; 
+
+        thead, tfoot{
+            background-color: #383838;
+            color: white;
+        }
+
+        thead tr th{
+            position: sticky;
+            top: -1px;
+            background-color: #474747;
+        }
+
+        tbody tr:nth-child(odd){
+            background-color: lightgray;        
         }
 
         th{
@@ -30,6 +56,7 @@
         <!--
             ANATOMIA PARA TABELAS GRANDES
             TABLE
+                CAPTIN > TITULO SEMANTICO DA TABELA
                 THEAD
                     TR, TD, TH
                 TBODY
@@ -38,10 +65,13 @@
                     TR, TD, TH
         -->
     <table>
+        <caption>População das Unidades federativas do Brasil</caption>
         <thead>
-            <th>Estado</th>
-            <th>População</th>
-            <th>UF</th>
+            <tr>
+                <th scope="col">Estado</th>
+                <th>População</th>
+                <th>UF</th>
+            </tr>
             
         </thead>
         <tbody>
@@ -120,15 +150,30 @@
                 <td class="num">4.059.905</td>
                 <td>PB</td>
             </tr>
-            <tfoot>
-                <tr>
-                    <th>Total de Habitantes</th>
-                    <td>500</td>
-                </tr>
-            </tfoot>
         </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <th>500</th>
+                <th></th>
+            </tr>
+        </tfoot>
     </table>    
-
+    <p style="width: 500px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos nulla aut, esse, itaque earum eum suscipit est tenetur tempore qui eius, nemo temporibus nostrum a dolorem tempora libero debitis sunt!
+    Mollitia, eius deserunt. Nemo quos cupiditate ratione, temporibus corporis, dolor architecto mollitia doloremque illo delectus, praesentium laudantium officiis quam facilis obcaecati eum enim dolores. Omnis nesciunt veritatis repellat autem esse.
+    Placeat impedit cum recusandae hic consequuntur, perferendis mollitia ratione est vitae sapiente voluptatibus accusantium? Enim vel tempora odio rerum neque facere dicta itaque ipsa eaque, dolorem ipsam mollitia? Beatae, corporis?
+    Officiis dolores quasi voluptas ad autem nulla voluptatum reprehenderit, iure repellendus atque dolorem quos earum debitis rerum minima eaque iusto eum excepturi ipsa placeat aut id quisquam. Voluptas, excepturi earum!
+    Esse earum perspiciatis soluta a iste veniam fugiat dicta aperiam, modi maiores sequi et quod rerum? Dicta rerum repudiandae, nam id harum, modi optio voluptatum quibusdam voluptate soluta animi impedit.
+    Accusantium nam voluptatibus aspernatur illum aut! Neque dolorem aperiam ea dicta unde nihil at, tempora a maxime earum laborum veniam sit aut tempore! Incidunt ipsam in quam! Sint, voluptatibus tempora.
+    Numquam molestias et iusto autem. Exercitationem aperiam temporibus magnam rerum accusamus at possimus aut facilis recusandae! Reprehenderit aliquid omnis aspernatur culpa repellat totam animi expedita! Nisi quam dignissimos voluptates quibusdam?
+    Veritatis animi aliquid dolores fuga! Sed, aut expedita. Maxime pariatur nam neque, dolores vel doloribus deleniti distinctio excepturi ea placeat molestias explicabo quasi sit repellendus magnam at eos perspiciatis suscipit!
+    Consectetur enim iusto eveniet pariatur hic error, harum id corporis distinctio asperiores, ducimus illo totam quibusdam minima nostrum consequuntur. Animi reiciendis fugiat dolorum sit non cupiditate cumque recusandae. Veritatis, alias.
+    Ipsam aliquam non nihil quis eaque quod veniam voluptatum mollitia esse quae fugiat debitis ipsum dolores, cumque expedita doloribus architecto! Ad asperiores unde, similique ipsam sapiente hic perferendis deleniti magnam.
+    Ipsum facere explicabo reprehenderit. Voluptas incidunt velit et laborum dolor temporibus reiciendis hic voluptatum, minus repellendus magnam cum repudiandae sint delectus tempora odit id itaque est eum doloribus, reprehenderit eius.
+    Numquam rem saepe esse ut earum quos eaque deleniti tenetur excepturi, officiis, optio totam, maiores sint quia error! Eum perferendis et possimus corrupti ullam distinctio quaerat unde officiis ea sapiente.
+    Dolorem, iste autem, aliquid ipsa voluptatum iusto in tempora iure quis cum quidem! Ipsum praesentium quam nemo! Neque natus sapiente culpa nesciunt consequatur explicabo ex. Soluta veritatis deserunt et accusamus?
+    Dolorum corporis minus dicta ut reprehenderit officia, quidem voluptas et culpa at porro veritatis necessitatibus id voluptatem ea ipsa quibusdam officiis error, laboriosam dignissimos labore? Optio fuga similique voluptate hic!
+    Provident, ratione ipsa laboriosam sapiente quas soluta fugit in aliquam similique. Illo, velit, ut provident dolor placeat iusto voluptas quod qui repudiandae illum perspiciatis adipisci ad ex atque debitis autem.</p>
 
 
 
